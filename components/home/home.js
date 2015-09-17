@@ -9,7 +9,7 @@ class HomeController {
 
   activate() {
     let id = this.routeParams.section;
-    if(id==0 && $(window).scrollTop()!=0){
+    if(id=='landing'){
       $("html, body").animate({ scrollTop: 0}, 125);
     } else {
       $("html, body").animate({ scrollTop: $('#homeSection-' + id).offset().top-NAVHEIGHT}, 125, ()=>{

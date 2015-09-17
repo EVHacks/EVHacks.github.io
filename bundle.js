@@ -76,7 +76,7 @@
 	      'main': 'home',
 	      'nav': 'navbar',
 	      'footer': 'footer'
-	    }, as: 'home' }, { path: '/', redirectTo: '/home/0' }]);
+	    }, as: 'home' }, { path: '/', redirectTo: '/home/landing' }]);
 	  this.world = 'Hello, world!';
 	}
 	// app.config(['$locationProvider', function($locationProvider) {
@@ -16467,11 +16467,11 @@
 /* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
 	var _moduleJs = __webpack_require__(4);
 
@@ -16485,10 +16485,10 @@
 	  }
 
 	  _createClass(HomeController, [{
-	    key: "activate",
+	    key: 'activate',
 	    value: function activate() {
 	      var id = this.routeParams.section;
-	      if (id == 0 && $(window).scrollTop() != 0) {
+	      if (id == 'landing') {
 	        $("html, body").animate({ scrollTop: 0 }, 125);
 	      } else {
 	        $("html, body").animate({ scrollTop: $('#homeSection-' + id).offset().top - NAVHEIGHT }, 125, function () {
