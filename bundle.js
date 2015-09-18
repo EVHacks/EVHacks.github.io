@@ -16475,7 +16475,7 @@
 
 	var _moduleJs = __webpack_require__(4);
 
-	var NAVHEIGHT = 80;
+	var NAVHEIGHT = 108;
 
 	var HomeController = (function () {
 	  function HomeController($routeParams) {
@@ -16515,7 +16515,7 @@
 
 	var _moduleJs = __webpack_require__(4);
 
-	var NAVHEIGHT = 64;
+	var NAVHEIGHT = 108;
 
 	var NavbarController = (function () {
 	  function NavbarController() {

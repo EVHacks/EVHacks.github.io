@@ -29,13 +29,14 @@
   /*color: #E1F1F7;*/
   color: #F7AE31;
 }
-
 h1.main-header-text-accent {
   color: #FFFFFF;
 }
-
 a.main-header-text-accent:hover {
   color: #F7AE31;
+}
+.main-header-nav-spacer {
+  height: 108px;
 }
 
 .main-navbar {
@@ -50,7 +51,7 @@ a.main-header-text-accent:hover {
   transition: background 250ms linear;
 }
 .main-navbar-fill-regular {
-  background: #2c3e50;
+  background: rgba(44,62,80,0.91);
   -webkit-transition: background 250ms linear;
   -moz-transition: background 250ms linear;
   -o-transition: background 250ms linear;

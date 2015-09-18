@@ -1,6 +1,6 @@
 import {app} from '../../module.js';
 
-let NAVHEIGHT = 64;
+let NAVHEIGHT = 108;
 
 class NavbarController {
   constructor() {

@@ -1,6 +1,6 @@
 import {app} from '../../module.js';
 
-let NAVHEIGHT = 80;
+let NAVHEIGHT = 108;
 
 class HomeController {
   constructor($routeParams) {
