@@ -5,6 +5,23 @@ let NAVHEIGHT = 108;
 class HomeController {
   constructor($routeParams) {
     this.routeParams = $routeParams;
+    this.map = {
+      center: {
+        latitude: 37.323098,
+        longitude: -121.778666
+      },
+      zoom: 14,
+      options: {
+        scrollwheel: false
+      }
+    };
+    this.marker = {
+      idKey: 128,
+      coords: {
+        latitude: 37.323098,
+        longitude: -121.778666
+      }
+    }
   }
 
   activate() {
