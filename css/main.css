@@ -2,32 +2,40 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
 @import url("https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css");
-/*@import url("https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue_grey-light_green.min.css");*/
-/*@import url("https://fonts.googleapis.com/icon?family=Material+Icons");*/
+@import url("https://storage.googleapis.com/code.getmdl.io/1.0.4/material.blue_grey-light_blue.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 .main-header {
   height: 80vh;
-  min-height: min-content;
+  min-height: -moz-min-content;
+	min-height: -webkit-min-content;
+	min-height: min-content;
 }
 .main-header-backgroud {
-
+  background: url(../assets/Banner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .main-header-alpha {
-  background: rgba(128, 128, 128, 0.67);
+  background: rgba(28, 68, 84, 0.75);
 }
 .main-header-text {
   color: #FFFFFF;
 }
 .main-header-text-accent {
-  color: #2c3e50;
+  /*color: #2c3e50;*/
+  /*color: #E1F1F7;*/
+  color: #F7AE31;
 }
 
 h1.main-header-text-accent {
-  color: #2c3e50;
+  color: #FFFFFF;
 }
 
 a.main-header-text-accent:hover {
-  color: #2c3e50;
+  color: #F7AE31;
 }
 
 .main-navbar {
@@ -52,6 +60,23 @@ a.main-header-text-accent:hover {
 
 .reset-padding {
   padding: 0;
+}
+
+.table-full-width {
+  width: 100%;
+}
+
+.card-row {
+  padding: 15px;
+}
+.card-full-width {
+  width: 100%;
+}
+.card-text-black {
+  color: #2C3E50;
+}
+.card-height-resize {
+  min-height: 0;
 }
 
 .vcenter-parent {
