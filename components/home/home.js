@@ -20,6 +20,9 @@ class HomeController {
       coords: {
         latitude: 37.323098,
         longitude: -121.778666
+      },
+      options: {
+        draggable: false
       }
     }
   }

@@ -60,7 +60,9 @@ a.main-header-text-accent:hover {
   transition: background 250ms linear;
 }
 
-.angular-google-map-container { height: 400px; }
+.angular-google-map-container {
+  height: 50vh; 
+}
 
 .reset-padding {
   padding: 0;
@@ -96,4 +98,8 @@ a.main-header-text-accent:hover {
 .vcenter-child {
   display: inline-block;
   vertical-align: middle;
+}
+
+.kevin {
+  font-size: 8px;
 }
