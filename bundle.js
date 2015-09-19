@@ -18931,6 +18931,9 @@
 	          $(window).scroll();
 	        });
 	      }
+	      $('.mdl-data-table--selectable').each(function (index, element) {
+	        componentHandler.upgradeElement(element);
+	      });
 	    }
 	  }]);
 

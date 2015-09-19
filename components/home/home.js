@@ -36,6 +36,9 @@ class HomeController {
         $(window).scroll();
       });
     }
+    $('.mdl-data-table--selectable').each((index, element)=> {
+      componentHandler.upgradeElement(element);
+    });
   }
 }
 
